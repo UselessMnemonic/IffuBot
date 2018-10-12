@@ -1,0 +1,45 @@
+{
+  "bronzesword": {
+    "itemName": "Bronze Sword",
+    "customName": "",
+    "isConsumable": false,
+    "uses": 0,
+    "isForged": false,
+    "owner": "",
+    "itemType": "Sword",
+    "itemStatBonuses": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "healBonus":0
+  },
+  
+  "vulnerary": {
+    "itemName": "Vulnerary",
+    "customName": "",
+    "isConsumable": true,
+    "uses": 3,
+    "isForged": false,
+    "owner": "",
+    "itemType": "Consumable",
+    "itemStatBonuses": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "healBonus" : 20
+  }
+}

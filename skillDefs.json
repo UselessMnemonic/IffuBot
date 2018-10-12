@@ -1,0 +1,44 @@
+{
+  "aptitude": {
+    "skillName": "Aptitude",
+    "statBonuses": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "growthBonuses": [10, 10, 10, 10, 10, 10, 10, 10, 10],
+    "baseLevel": 1
+  },
+  "luna": {
+    "skillName": "Luna",
+    "statBonuses": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "growthBonuses": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "baseLevel": 5
+  },
+  "movement+1": {
+    "skillName": "Movement +1",
+    "statBonuses": [0, 0, 0, 0, 0, 0, 0, 0, 1],
+    "growthBonuses": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "baseLevel": 10
+  },
+  "gentilhomme": {
+    "skillName": "Gentilhomme",
+    "statBonuses": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "growthBonuses": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "baseLevel": 10
+  },
+  "shurikenbreaker": {
+    "skillName": "Shurikenbreaker",
+    "statBonuses": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "growthBonuses": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "baseLevel": 15
+  },
+  "oddshaped": {
+    "skillName": "Odd Shaped",
+    "statBonuses": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "growthBonuses": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "baseLevel": 1
+  },
+  "beastbane": {
+    "skillName": "Beastbane",
+    "statBonuses": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "growthBonuses": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "baseLevel": 10
+  }
+}

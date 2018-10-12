@@ -1,0 +1,716 @@
+{
+  "villager": {
+    "className": "Villager",
+    "baseStats": [17, 5, 0, 4, 5, 3, 4, 0, 5],
+    "maxStats": [35, 19, 15, 19, 19, 22, 18, 15, 5],
+    "growthRates": [10, 10, 0, 10, 10, 20, 10, 0, 0],
+    "baseLevel": 1,
+    "maxLvl": 20,
+    "basePromotions": ["Master of Arms", "Merchant"],
+  "baseSkills":["Aptitude"]
+},
+
+  "noble": {
+    "className": "Noble",
+    "baseStats": [ 17, 7, 3, 4, 5, 2, 5, 2, 5 ],
+    "maxStats": [ 40, 23, 17, 19, 21, 22, 21, 19, 5 ],
+    "growthRates": [ 15, 15, 10, 10, 10, 10, 10, 5, 0 ],
+    "baseLevel": 1,
+    "maxLvl": 20,
+    "basePromotions": ["Light Noble", "Dark Noble"],
+  "baseSkills":[]
+},
+
+  "cavalier": {
+    "className": "Cavalier",
+    "baseStats": [ 17, 6, 0, 5, 5, 3, 5, 3, 7 ],
+    "maxStats": [ 40, 22, 15, 21, 20, 24, 22, 21, 7 ],
+    "growthRates": [ 10, 15, 0, 10, 10 ,15, 10, 5, 0 ],
+    "baseLevel": 1,
+    "maxLvl": 20,
+    "basePromotions": ["Paladin", "Great Knight"],
+  "baseSkills":[]
+},
+
+  "knight": {
+    "className": "Knight",
+    "baseStats": [ 19, 8, 0, 5, 3, 3, 8, 1, 4 ],
+    "maxStats": [ 45, 24, 15, 22, 17, 22, 26, 18, 4 ],
+    "growthRates": [ 20, 20, 0, 15, 5, 10, 20, 0 ,0 ],
+    "baseLevel": 1,
+    "maxLvl": 20,
+    "basePromotions": ["General", "Great Knight"],
+  "baseSkills":[]
+},
+
+  "fighter": {
+    "className": "Fighter",
+    "baseStats": [19, 7, 0, 6, 6, 2, 4, 1, 5 ],
+    "maxStats": [ 45, 25, 15, 23, 22, 21, 19, 18, 5 ],
+    "growthRates": [ 20, 20, 0, 15, 15, 5, 5, 0, 0 ],
+    "baseLevel": 1,
+    "maxLvl": 20,
+    "basePromotions": ["Berserker", "Hero"],
+  "baseSkills":[]
+},
+
+  "mercenary": {
+    "className": "Mercenary",
+    "baseStats": [17, 5, 0, 7, 6, 2, 5, 2, 5 ],
+    "maxStats": [ 40, 22, 15, 24, 22, 20, 21, 19, 5 ],
+    "growthRates": [ 10, 15, 0, 20, 15, 5, 10, 5, 0 ],
+    "baseLevel": 1,
+    "maxLvl": 20,
+    "basePromotions": ["Hero", "Bow Knight"],
+  "baseSkills":[]
+},
+
+  "outlaw": {
+    "className": "Outlaw",
+    "baseStats": [ 16, 3, 1, 4, 8, 1, 2, 4, 5 ],
+    "maxStats": [ 35, 19, 18, 20, 24, 18, 17, 22, 5 ],
+    "growthRates": [ 0, 10, 5, 10, 20, 0, 0, 20 ,0 ],
+    "baseLevel": 1,
+    "maxLvl": 20,
+    "basePromotions": ["Adventurer", "Bow Knight"],
+  "baseSkills":[]
+},
+
+  "wyvernrider": {
+    "className": "Wyvern Rider",
+    "baseStats": [ 17, 6, 0, 5, 4, 2, 7, 0, 7 ],
+    "maxStats": [ 40, 22, 17, 21, 20, 19, 24,15, 7 ],
+    "growthRates": [ 10, 15, 5, 10, 10, 5, 20, 0, 0 ],
+    "baseLevel": 1,
+    "maxLvl": 20,
+    "basePromotions": ["Wyvern Lord", "Malig Knight"],
+  "baseSkills":[]
+},
+
+  "darkmage": {
+    "className": "Dark Mage",
+    "baseStats": [ 16, 0, 6, 3, 3, 1, 3, 5, 5 ],
+    "maxStats": [ 35, 19, 24, 16, 19, 18, 19, 22, 5 ],
+    "growthRates": [ 0, 10, 20, 0, 10, 0, 5, 10, 0 ],
+    "baseLevel": 1,
+    "maxLvl": 20,
+    "basePromotions": ["Sorcerer", "Dark Knight"],
+  "baseSkills":[]
+},
+
+  "troubadour": {
+    "className": "Troubadour",
+    "baseStats": [ 15, 0, 3, 7, 5, 4, 1, 4, 7 ],
+    "maxStats": [ 35, 16, 19, 24, 20, 23, 16, 21, 7 ],
+    "growthRates": [ 0, 0, 10, 20, 10, 15, 0, 15, 0 ],
+    "baseLevel": 1,
+    "maxLvl": 20,
+    "basePromotions": ["Strategist", "Domestic"],
+  "baseSkills":[]
+},
+
+  "wolfskin": {
+    "className": "Wolfskin",
+    "baseStats": [ 19, 8, 0, 4, 6, 0, 4, 0, 6 ],
+    "maxStats": [ 45, 24, 15, 18, 22, 17, 21, 15, 6 ],
+    "growthRates": [ 20, 20, 0, 5, 15, 5, 10, 0, 0 ],
+    "baseLevel": 1,
+    "maxLvl": 20,
+    "basePromotions": ["Wolfssegner"],
+  "baseSkills":["Odd Shaped", "Beastbane"]
+},
+
+  "samurai": {
+    "className": "Samurai",
+    "baseStats": [ 17, 4, 0, 5, 8, 3, 3, 3, 5 ],
+    "maxStats": [ 40, 20, 16, 23, 25, 24, 18, 20, 5 ],
+    "growthRates": [ 10, 10, 0, 15, 20, 15, 0, 0, 0 ],
+    "baseLevel": 1,
+    "maxLvl": 20,
+    "basePromotions": ["Swordmaster", "Master of Arms"],
+  "baseSkills":[]
+},
+
+  "apothecary": {
+    "className": "Apothecary",
+    "baseStats": [ 18, 6, 0, 4, 4, 2, 6, 2, 5 ],
+    "maxStats": [ 45, 24, 15, 19, 19, 21, 23, 20, 5 ],
+    "growthRates": [ 20, 20, 0, 10, 10, 5, 10, 5, 0 ],
+    "baseLevel": 1,
+    "maxLvl": 20,
+    "basePromotions": ["Merchant", "Mechanist"],
+  "baseSkills":[]
+},
+
+  "ninja": {
+    "className": "Ninja",
+    "baseStats": [ 16, 3, 0, 8, 8, 1, 3, 3, 5 ],
+    "maxStats": [ 35, 17, 15, 25, 25, 18, 19, 20, 5 ],
+    "growthRates": [ 5, 5, 0, 20, 20, 0, 5, 15, 0 ],
+    "baseLevel": 1,
+    "maxLvl": 20,
+    "basePromotions": ["Master Ninja", "Mechanist"],
+  "baseSkills":[]
+},
+
+  "onisavage": {
+    "className": "Oni Savage",
+    "baseStats": [ 18, 6, 1, 2, 5, 0, 7, 1, 5 ],
+    "maxStats": [ 45, 24, 19, 16, 20, 17, 23, 18, 6 ],
+    "growthRates": [ 20, 20, 10, 0, 10, 0, 20, 0, 0 ],
+    "baseLevel": 1,
+    "maxLvl": 20,
+    "basePromotions": ["Oni Chieftain", "Blacksmith"],
+  "baseSkills":[]
+},
+
+  "spearfighter": {
+    "className": "Spear Fighter",
+    "baseStats": [ 17, 6, 0, 6, 6, 2, 5, 2, 4 ],
+    "maxStats": [ 40, 22, 15, 23, 22, 21, 22, 21, 4 ],
+    "growthRates": [ 15, 15, 0, 15, 15, 5, 10, 5, 0 ],
+    "baseLevel": 1,
+    "maxLvl": 20,
+    "basePromotions": ["Spear Master", "Basara"],
+  "baseSkills":[]
+},
+
+  "diviner": {
+    "className": "Diviner",
+    "baseStats": [ 15, 0, 4, 5, 6, 1, 1, 3, 5 ],
+    "maxStats": [ 35, 17, 22, 20, 23, 19, 16, 20, 5 ],
+    "growthRates": [ 0, 5, 15, 10, 15, 5, 0, 10, 0 ],
+    "baseLevel": 1,
+    "maxLvl": 20,
+    "basePromotions": ["Onmyoji", "Basara"],
+  "baseSkills":[]
+},
+
+  "spiritualist": {
+    "className": "Spiritualist",
+    "baseStats": [ 16, 0, 3, 4, 5, 2, 1, 6, 5 ],
+    "maxStats": [ 35, 18, 21, 20, 22, 23, 17, 24, 5 ],
+    "growthRates": [ 0, 5, 10, 10, 15, 15, 0, 20, 0 ],
+    "baseLevel": 1,
+    "maxLvl": 20,
+    "basePromotions": ["Great Master", "Onmyoji"],
+  "baseSkills":[]
+},
+
+  "skyknight": {
+    "className": "Sky Knight",
+    "baseStats": [ 16, 3, 0, 5, 7, 4, 2, 6, 7 ],
+    "maxStats": [ 35, 19, 16, 21, 23, 25, 18, 25, 7 ],
+    "growthRates": [ 0, 10, 0, 10, 15, 20, 0, 20, 0],
+    "baseLevel": 1,
+    "maxLvl": 20,
+    "basePromotions": ["Falcon Knight", "Kinshi Knight"],
+  "baseSkills":[]
+},
+
+  "archer": {
+    "className": "Archer",
+    "baseStats": [ 17, 5, 0, 7, 5, 2, 4, 1, 5 ],
+    "maxStats": [ 40, 21, 15, 23, 21, 20, 20, 17, 5 ],
+    "growthRates": [ 10, 15, 0, 15, 15, 5, 10, 0, 0 ],
+    "baseLevel": 1,
+    "maxLvl": 20,
+    "basePromotions": ["Sniper", "Kinshi Knight"],
+  "baseSkills":[]
+},
+
+  "kitsune": {
+    "className": "Kitsune",
+    "baseStats": [ 16, 5, 1, 6, 8, 4, 1, 4, 6 ],
+    "maxStats": [ 40, 20, 18, 23, 24, 24, 18, 23, 6 ],
+    "growthRates": [ 10, 10, 0, 15, 20, 10, 0, 20, 0 ],
+    "baseLevel": 1,
+    "maxLvl": 20,
+    "basePromotions": ["Sniper", "Kinshi Knight"],
+  "baseSkills":[]
+},
+
+  "blacksmith": {
+    "className": "Blacksmith",
+    "baseStats": [ 21, 8, 0, 9, 8, 3, 8, 2, 6 ],
+    "maxStats": [ 65, 33, 25, 32, 31, 30, 32, 27, 6 ],
+    "growthRates": [ 20, 15, 0, 15, 10, 5, 15, 0 ,0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "nine-tails": {
+    "className": "Nine-Tails",
+    "baseStats": [ 19, 6, 2, 9, 10, 5, 2, 8, 6 ],
+    "maxStats": [ 55, 29, 29, 33, 34, 33, 27, 34, 6 ],
+    "growthRates": [ 10, 10, 0, 15, 20, 10, 0, 20, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "falconknight": {
+    "className": "Falcon Knight",
+    "baseStats": [ 18, 5, 4, 6, 10, 5, 5, 9, 8 ],
+    "maxStats": [ 55, 28, 27, 30, 34, 35, 27, 35, 8 ],
+    "growthRates": [ 0, 10, 10, 10, 15, 20, 0, 20, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "knishiknight": {
+    "className": "Knishi Knight",
+    "baseStats": [ 17, 4, 1, 9, 8, 5, 4, 7, 8 ],
+    "maxStats": [ 50, 27, 26, 33, 31, 34, 25, 31, 8 ],
+    "growthRates": [ 0, 5, 0, 15, 15, 15, 0, 15, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "sniper": {
+    "className": "Sniper",
+    "baseStats": [ 19, 7, 0, 10, 9, 3, 6, 2, 6 ],
+    "maxStats": [ 55, 31, 25, 35, 33, 30, 31, 28, 6 ],
+    "growthRates": [ 10, 15, 0, 20, 15, 5, 10, 0, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "spearmaster": {
+    "className": "Spear Master",
+    "baseStats": [ 18, 9, 0, 8, 8, 3, 7, 3, 6 ],
+    "maxStats": [ 60, 34, 25, 33, 32, 29, 30, 29, 6 ],
+    "growthRates": [ 15, 15, 0, 15, 15, 5, 10, 5, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "basara": {
+    "className": "Basara",
+    "baseStats": [ 20, 7, 5, 7, 7, 5, 7, 6, 6 ],
+    "maxStats": [ 65, 31, 30, 30, 31, 35, 30, 32, 6 ],
+    "growthRates": [ 20, 10, 10, 10, 10, 15, 5, 10 ,0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "greatmaster": {
+    "className": "Great Master",
+    "baseStats": [ 19, 7, 7, 6, 9, 5, 6, 7, 6 ],
+    "maxStats": [ 53, 31, 31, 31, 33, 33, 27, 35, 6 ],
+    "growthRates": [ 10, 15, 5, 5, 15, 15, 10, 10 ,0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "onicheiftain": {
+    "className": "Oni Chieftain",
+    "baseStats": [ 19, 9, 5, 2, 7, 0, 10, 5, 6 ],
+    "maxStats": [ 60, 34, 28, 25, 30, 25, 36, 31, 6 ],
+    "growthRates": [ 10, 20, 15, 0, 10, 0, 20, 5, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "swordmaster": {
+    "className": "Swordmaster",
+    "baseStats": [ 18, 6, 2, 7, 11, 4, 5, 5, 6 ],
+    "maxStats": [ 55, 30, 28, 32, 35, 33, 27, 31, 6 ],
+    "growthRates": [ 10, 10, 5, 15, 20, 15, 0, 10, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "mechanist": {
+    "className": "Mechanist",
+    "baseStats": [ 18, 7, 0, 9, 7, 2, 6, 6, 7 ],
+    "maxStats": [ 60, 30, 25, 33, 30, 30, 31, 31, 7 ],
+    "growthRates": [ 10, 10, 0, 15, 10, 5, 5, 15, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "masterninja": {
+    "className": "Master Ninja",
+    "baseStats": [ 17, 5, 0, 10, 11, 2, 4, 8, 6 ],
+    "maxStats": [ 55, 27, 25, 35, 35, 28, 26, 34, 6 ],
+    "growthRates": [ 5, 5, 0, 20, 20, 0, 5, 20, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "lightnoble": {
+    "className": "Light Noble",
+    "baseStats": [ 19, 10, 4, 5, 6, 4, 7, 3, 6 ],
+    "maxStats": [ 60, 34, 28, 29, 30, 33, 31, 28, 6 ],
+    "growthRates": [ 15, 15, 10, 10, 10, 10, 15, 0, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "darknoble": {
+    "className": "Dark Noble",
+    "baseStats": [ 18, 8, 6, 4, 7, 2, 6, 6, 6 ],
+    "maxStats": [ 60, 32, 31, 28, 32, 27, 29, 32, 6 ],
+    "growthRates": [ 15, 10, 15, 5, 15, 5, 5, 15, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "songstress": {
+    "className": "Songstress",
+    "baseStats": [ 16, 3, 0, 6, 5, 3, 2, 3, 5 ],
+    "maxStats": [ 45, 33, 27, 31, 31, 35, 27, 28, 5 ],
+    "growthRates": [ 0, 10, 0, 20, 20, 20, 0, 0, 0 ],
+    "baseLevel": 1,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "paladin": {
+    "className": "Paladin",
+    "baseStats": [ 19, 8, 1, 7, 7, 4, 7, 6, 8 ],
+    "maxStats": [ 60, 31, 26, 30, 30, 32, 32, 32, 8 ],
+    "growthRates": [ 10, 15, 0, 10, 10, 15, 10, 10, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "greatknight": {
+    "className": "Great Knight",
+    "baseStats": [ 21, 10, 0, 6, 6, 3, 10, 2, 7 ],
+    "maxStats": [ 65, 35, 25, 29, 27, 28, 37, 28, 7 ],
+    "growthRates": [ 20, 20, 0, 10, 5, 5, 20, 0, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "general": {
+    "className": "General",
+    "baseStats": [ 22, 11, 0, 7, 3, 4, 12, 3, 5 ],
+    "maxStats": [ 70, 38, 25, 32, 25, 32, 40, 30, 5 ],
+    "growthRates": [ 25, 20, 0, 15, 0, 10, 20, 5, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "berserker": {
+    "className": "Berserker",
+    "baseStats": [ 24, 12, 0, 8, 9, 0, 5, 0, 6 ],
+    "maxStats": [ 70, 40, 25, 32, 33, 25, 27, 25, 6 ],
+    "growthRates": [ 30, 25, 0, 15, 15, 0, 0, 0, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "hero": {
+    "className": "Hero",
+    "baseStats": [ 20, 8, 0, 10, 8, 3, 7, 2, 6 ],
+    "maxStats": [ 60, 32, 25, 35, 32, 31, 30, 27, 6 ],
+    "growthRates": [ 20, 15, 0, 20, 15, 5, 10, 0, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "bowknight": {
+    "className": "Bow Knight",
+    "baseStats": [ 18, 6, 0, 8, 9, 3, 5, 6, 8 ],
+    "maxStats": [ 55, 29, 25, 32, 33, 30, 27, 32, 8 ],
+    "growthRates": [ 10, 10, 0, 15,15, 10, 0, 10, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "onmyoji": {
+    "className": "Onmyoji",
+    "baseStats": [ 16, 0, 7, 6, 7, 2, 3, 6, 6],
+    "maxStats": [ 45, 25, 33, 31, 32, 28, 25, 31, 6 ],
+    "growthRates": [ 0, 0, 20, 10, 15, 0, 0, 15, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+    "baseSkills":[]
+  },
+
+  "adventurer": {
+    "className": "Adventurer",
+    "baseStats": [ 17, 4, 6, 6, 10, 2, 3, 8, 6 ],
+    "maxStats": [ 50, 27, 31, 27, 34, 27, 25, 34, 6 ],
+    "growthRates": [ 0, 5, 15, 5, 20, 0, 0, 20, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "wyvernlord": {
+    "className": "Wyvern Lord",
+    "baseStats": [ 19, 8, 0, 9, 6, 3, 10, 1, 8 ],
+    "maxStats": [ 60, 33, 25, 33, 29, 28, 35, 26, 8 ],
+    "growthRates": [ 10, 15, 0, 15, 10, 5, 20, 0, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "maligknight": {
+    "className": "Malig Knight",
+    "baseStats": [ 18, 7, 6, 6, 5, 0, 8, 6, 8 ],
+    "maxStats": [ 55, 31, 30, 28, 27, 25, 31, 31, 8 ],
+    "growthRates": [ 0, 15, 15, 10, 5, 0, 10, 15, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "sorcerer": {
+    "className": "Sorcerer",
+    "baseStats": [ 17, 0, 9, 4, 6, 1, 5, 8, 6 ],
+    "maxStats": [ 50, 25, 35, 26, 29, 26, 29, 33, 6 ],
+    "growthRates": [ 0, 0, 25, 0, 10, 0, 5, 15, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "darkknight": {
+    "className": "Dark Knight",
+    "baseStats": [ 19, 8, 6, 6, 5, 3, 8, 6, 8 ],
+    "maxStats": [ 55, 32, 31, 28, 27, 31, 34, 30, 8 ],
+    "growthRates": [ 15, 20, 10, 5, 5, 5, 15, 5, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "domestic": {
+    "className": "Domestic",
+    "baseStats": [ 18, 4, 5, 9, 8, 4, 5, 4, 6 ],
+    "maxStats": [ 50, 28, 31, 33, 33, 32, 29, 29, 6 ],
+    "growthRates": [ 0, 10, 10, 15, 15, 10, 5, 10, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "wolfssegner": {
+    "className": "Wolfssegner",
+    "baseStats": [ 22, 1, 0, 6, 7, 1, 7, 1, 6 ],
+    "maxStats": [ 65, 36, 25, 29, 31, 26, 32, 26, 6 ],
+    "growthRates": [ 20, 20, 0, 5, 15, 5, 10, 0, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "strategist": {
+    "className": "Strategist",
+    "baseStats": [ 16, 0, 7, 6, 7, 5, 2, 7, 8 ],
+    "maxStats": [ 45, 25, 33, 28, 31, 33, 25, 32, 8 ],
+    "growthRates": [ 0, 0, 15, 5, 10, 20, 0, 15, 0] ,
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "masterofarms": {
+    "className": "Master of Arms",
+    "baseStats": [ 20, 8, 0, 6, 9, 3, 7, 3, 6 ],
+    "maxStats": [ 65, 33, 25, 30, 30, 31, 31, 28, 6 ],
+    "growthRates": [ 20, 15, 0, 10, 10, 10, 10, 0, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "merchant": {
+    "className": "Merchant",
+    "baseStats": [ 20, 8, 0, 6, 5, 4, 8, 5, 6 ],
+    "maxStats": [ 65, 33, 25, 29, 28, 32, 33, 30, 6 ],
+    "growthRates": [ 20, 20, 0, 10, 5, 15, 10, 5, 0 ],
+    "baseLevel": 10,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "dreadfighter": {
+    "className": "Dread Fighter",
+    "baseStats": [19, 8, 3, 6, 8, 1, 6, 9, 6],
+    "maxStats": [80, 45, 37, 42, 41, 45, 42, 43, 6],
+    "growthRates": [15, 15, 5, 5, 15, 0, 5, 20, 0],
+    "baseLevel": 1,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "darkfalcon": {
+    "className": "Dark Falcon",
+    "baseStats": [19, 8, 3, 6, 8, 1, 6, 9, 6],
+    "maxStats": [80, 45, 37, 42, 41, 45, 42, 43, 6],
+    "growthRates": [0, 10, 15, 5, 15, 15, 0, 20, 0],
+    "baseLevel": 1,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "ballistician": {
+    "className": "Ballistician",
+    "baseStats": [18, 10, 0, 7, 2, 4, 3, 1, 4],
+    "maxStats": [50, 39, 25, 31, 25, 32, 27, 26, 4],
+    "growthRates": [5, 25, 0, 15, 0, 10, 5, 5, 0],
+    "baseLevel": 1,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "witch": {
+    "className": "Witch",
+    "baseStats": [17, 0, 10, 5, 9, 3, 4, 5, 6],
+    "maxStats": [50, 25, 36, 27, 34, 28, 26, 29, 6],
+    "growthRates": [5, 0, 25, 5, 20, 5, 0, 10, 0],
+    "baseLevel": 1,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "lodestar": {
+    "className": "Lodestar",
+    "baseStats": [19, 7, 0, 10, 9, 7, 7, 2, 6],
+    "maxStats": [60, 29, 26, 35, 34, 40, 30, 29, 6],
+    "growthRates": [15, 10, 0, 20, 10, 25, 5, 5, 0],
+    "baseLevel": 1,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "vanguard": {
+    "className": "Vanguard",
+    "baseStats": [53, 19, 3, 23, 19, 0, 17, 6, 7],
+    "maxStats": [65, 36, 25, 29, 30, 30, 32, 27, 6],
+    "growthRates": [20, 20, 0, 5, 5, 10, 15, 0 ,0],
+    "baseLevel": 1,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "grandmaster": {
+    "className": "Grandmaster",
+    "baseStats": [20, 7, 6, 7, 7, 0, 7, 5, 6],
+    "maxStats": [55, 31, 33, 33, 29, 26, 28, 33, 6],
+    "growthRates": [10, 15, 15, 15, 5, 0, 5, 15, 0],
+    "baseLevel": 1,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "greatlord": {
+    "className": "Great Lord",
+    "baseStats": [18, 8, 1, 8, 9, 5, 7, 3, 6],
+    "maxStats": [60, 30, 25, 32, 34, 35, 29, 31, 6],
+    "growthRates": [15, 15, 0, 10, 10, 15, 10, 5, 0],
+    "baseLevel": 1,
+    "maxLvl": 40,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+  "deus": {
+    "className": "Deus",
+    "baseStats": [99, 99, 99, 99, 99, 99, 99, 99, 99],
+    "maxStats": [99, 99, 99, 99, 99, 99, 99, 99, 99],
+    "growthRates": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "baseLevel": 1,
+    "maxLvl": 1,
+    "basePromotions": [],
+  "baseSkills":[]
+},
+
+   "outrealmclass": {
+    "className": "Outrealm Class",
+    "baseStats": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "maxStats": [99, 99, 99, 99, 99, 99, 99, 99, 99],
+    "growthRates": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "baseLevel": 1,
+    "maxLvl": 1,
+    "basePromotions": ["Villager"],
+     "baseSkills":[]
+},
+
+  "gravitylord": {
+    "className": "Gravity Lord",
+    "baseStats": [ 17, 7, 3, 4, 5, 2, 5, 2, 5 ],
+    "maxStats": [ 60, 34, 28, 29, 30, 33, 31, 28, 6 ],
+    "growthRates": [ 100, 100, 100, 100, 100, 100, 100, 100, 100 ],
+    "baseLevel": 1,
+    "maxLvl": 40,
+    "basePromotions": [],
+    "baseSkills":[]
+  },
+
+  "fallenangel": {
+    "className": "Fallen Angel",
+    "baseStats": [ 17, 7, 3, 4, 5, 2, 5, 2, 5 ],
+    "maxStats": [ 60, 34, 28, 29, 30, 33, 31, 28, 6 ],
+    "growthRates": [ 10, 20, 10, 5, 30, 5, 40, 10, 0],
+    "baseLevel": 1,
+    "maxLvl": 40,
+    "basePromotions": [],
+    "baseSkills":[]
+  }
+}
